@@ -2,7 +2,7 @@
     "name": "cyberwings/myanmar-phone-number-php",
     "description": "PHP port of ( https://github.com/Melomap/mm_phonenumber ) to check valid myanmar mobile numbers, get mobile operator's name, sanitize mobile numbers and get mobile network types.",
     "type": "library",
-    "license": "Apache",
+    "license": "Apache 2.0",
     "authors": [
         {
             "name": "Htet Wai Yan Soe",
