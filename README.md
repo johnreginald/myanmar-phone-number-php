@@ -31,6 +31,6 @@ TODO
 ### TODO
 - Features: Check Network Types
 - Installation Instruction
-- Packagist
+- Packagist *
 - Laravel Validation Rule
 - Laravel Package
