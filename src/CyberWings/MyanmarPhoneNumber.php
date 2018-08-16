@@ -51,6 +51,10 @@ class MyanmarPhoneNumber
 					$telecom = new Telecom\MPT();
 					break;
 
+                case "mytel":
+                    $telecom = new Telecom\Mytel();
+                    break;
+
 				default: 
 					die("Invalid Operator Name");
 					break;
@@ -79,6 +83,10 @@ class MyanmarPhoneNumber
 		if ( $this->is_telecom('mpt', $number) ) {
 			return "MPT";
 		}
+
+        if ( $this->is_telecom('mytel', $number) ) {
+            return "Mytel";
+        }
 
 		return "Unknown";
 	}
