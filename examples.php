@@ -8,6 +8,7 @@
     $phone_number->is_telecom('Telenor', "09794303891");
     $phone_number->is_telecom('mpt', "09794303891");
     $phone_number->is_telecom('ooredoo', "09794303891");
+    $phone_number->is_telecom('mytel', "09694303891");
 
     $phone_number->is_valid('09794303891');
     $phone_number->telecom_name('09794303891');
