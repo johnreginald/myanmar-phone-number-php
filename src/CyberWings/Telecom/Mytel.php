@@ -12,6 +12,6 @@ class Mytel implements TelecomInterface
      */
     public function check($number)
 	{
-		return preg_match( '/^(09|\+?959)69\d{7}$/', $number) ? true : false;
+		return preg_match( '/^(09|\+?959)6\d{8}$/', $number) ? true : false;
 	}
 }

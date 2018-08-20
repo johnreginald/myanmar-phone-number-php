@@ -55,6 +55,10 @@ class MyanmarPhoneNumber
                     $telecom = new Telecom\Mytel();
                     break;
 
+                case "mec":
+                    $telecom = new Telecom\MEC();
+                    break;
+
 				default: 
 					die("Invalid Operator Name");
 					break;
@@ -86,6 +90,10 @@ class MyanmarPhoneNumber
 
         if ( $this->is_telecom('mytel', $number) ) {
             return "Mytel";
+        }
+
+        if ( $this->is_telecom('mec', $number) ) {
+            return "MEC";
         }
 
 		return "Unknown";
