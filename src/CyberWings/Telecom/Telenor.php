@@ -12,6 +12,6 @@ class Telenor implements TelecomInterface
      */
     public function check($number)
 	{
-		return preg_match( '/^(09|\+?959)7(9|8|7)\d{7}$/', $number) ? true : false;
+		return preg_match( '/^(09|\+?959)7\d{8}$/', $number) ? true : false;
 	}
 }
